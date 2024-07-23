@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO_DO</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <a href="index.html">go back home</a> -->
+    <div class="container">
+      <div class="todo">
+        <h1>to-do list</h1>
+        <div class="main">
+          <input type="text" id="input-box" placeholder="Add your tasks." />
+          <button type="submit" onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li></li> -->
+        </ul>
+      </div>
+      <div>
+        <select>
+          <option value="all">ALL</option>
+          <option value="complete">COMPLETE</option>
+          <option value="incomplete">INCOMPLETE</option>
+        </select>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

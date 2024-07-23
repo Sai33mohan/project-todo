@@ -1,0 +1,121 @@
+/* 
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: linear-gradient(90deg, blue, black);
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  position: relative;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: black; */
+  /* width: 400px; */
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 24px;
+  padding: 20px;
+}
+input {
+  flex: 1;
+  padding: 24px 52px;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  /* background: transparent; */
+}
+button {
+  padding: 20px 32px;
+  text-transform: uppercase;
+  background-color: #1562ae;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.todo {
+  background-color: rgb(250, 237, 237);
+  width: 580px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 54px 48px 40px 32px;
+}
+.todo h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+ul li {
+  list-style: none;
+  padding: 20px 24px 20px 24px;
+  margin-left: 32px;
+  font-size: 24px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 300;
+}
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 24px;
+  left: -4%;
+  background-image: url(unchecked.png);
+  background-size: cover;
+  background-position: center;
+}
+ul li.checked {
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  background-image: url(checked1.png);
+  /* height: 30px;
+  width: 30px; */
+}
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 14px;
+  height: 40px;
+  width: 38px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  line-height: 40px;
+  text-align: center;
+}
+ul li span:hover {
+  background-color: antiquewhite;
+}
+select {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 10px;
+  position: absolute;
+  right: 20%;
+  top: 15%;
+  border-top: 4px solid #1562ae;
+}
+option {
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  right: 25%;
+  top: 20%;
+}

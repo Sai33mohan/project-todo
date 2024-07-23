@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1059a1;
+  position: relative;
+  /* background-image: url(time.avif);
+  background-size: 50%;
+  height: 100vh; */
+}
+.container {
+  /* background-image: url(time.avif);
+  background-size: cover; */
+}
+h1 {
+  font-size: 58px;
+  background-color: #1562ae;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 48px;
+  color: #c4ccd4;
+}
+.para1 {
+  font-size: 28px;
+  color: #050f15;
+  margin-top: 95px;
+  color: #080808;
+  font-weight: 400;
+  /* padding: 24px 32px; */
+  /* background-color: aliceblue; */
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+}
+.para2 {
+  font-size: 24px;
+  color: #050f15;
+  margin-top: 42px;
+  color: #19191a;
+  /* padding: 20px 32px; */
+  /* background-color: aliceblue; */
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+}
+button {
+  text-align: center;
+  padding: 14px 24px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  margin-top: 375px;
+  font-weight: bold;
+  background-color: #1562ae;
+}
+button:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+div {
+  width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* transform: translate(-75%, 80%); */
+  transform: translate(-50%);
+}
+.img {
+  width: 700px;
+  height: 450px;
+}
